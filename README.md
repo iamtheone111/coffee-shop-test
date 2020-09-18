@@ -22,3 +22,7 @@ Barista can make one coffee at a time with specific delay for each kind of coffe
 When item appears in a queue it has `queued` state, when barista starts making it state becomes `in progress`, and `ready` when it's ready.
 
 Item should be removed from queue in average of 3 seconds - did not have time to implement it.
+
+## Visual Representation
+
+![Screenshot](https://github.com/iamtheone111/coffee-shop-test/screenshot.png)
