@@ -74,8 +74,8 @@ export default function TabOneScreen() {
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <Text style={styles.title}>The Menu</Text>
       <View>
-        {CoffeeProducts.map(product =>
-          <View style={styles.menuItem}>
+        {CoffeeProducts.map((product) =>
+          <View key={product.name} style={styles.menuItem}>
             <Button onPress={() => makeOrder(product)} title={product.name} />
           </View>
         )}
