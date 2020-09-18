@@ -25,4 +25,4 @@ Item should be removed from queue in average of 3 seconds - did not have time to
 
 ## Visual Representation
 
-![Screenshot](https://github.com/iamtheone111/coffee-shop-test/screenshot.png)
+![Screenshot](https://github.com/iamtheone111/coffee-shop-test/blob/master/screenshot.png)
